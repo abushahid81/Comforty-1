@@ -39,7 +39,7 @@ $('#slider-2').owlCarousel({
           nav:true,
         
       },
-      600:{
+      768:{
           items:3,
           nav:true,
       },
