@@ -40,7 +40,7 @@ $('#slider-2').owlCarousel({
         
       },
       600:{
-          items:4,
+          items:3,
           nav:true,
       },
       1000:{
