@@ -24,7 +24,7 @@ $('#slider-1').owlCarousel({
           nav:true,
       },
       // 1400:{
-      //   item:5,
+      //   item:4,
       //   nav:true,
       // }
   }
@@ -47,8 +47,8 @@ $('#slider-2').owlCarousel({
           items:4,
           nav:true,
       },
-      // 1400:{
-      //   item:5,
+      // 1200:{
+      //   item:4,
       //   nav:true,
       // }
   }

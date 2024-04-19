@@ -6,16 +6,16 @@
 .nav-link{
   color: black;
 }
-
+.change-text {
+  color: rgb(254, 246, 246);
+}
 body {
   background-color: #fff;
 }
 body.toggle-btn {
   background-color: #191515;
 }
-.change-text {
-  color: rgb(254, 246, 246);
-}
+
 .pro {
   text-align: center;
 }
