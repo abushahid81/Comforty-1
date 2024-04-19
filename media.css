@@ -3,4 +3,18 @@
       top: 20px;
       right: 40px;
     }
+    .card{
+      margin-left: 40px;
+    }
+    .card-chht{
+      margin-left: -2px;
+    }
+    .btn-plo{
+      margin-left:-40px;
+    }
+    .owl-nav button.owl-prev span{
+     margin-left: 155px;
+    }
+   
+   
   }

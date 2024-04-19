@@ -10,6 +10,9 @@
 <link rel="stylesheet" href="media.css">
 <link rel="stylesheet" media="screen and (min-width: 900px)" href="widescreen.css">
 <link rel="stylesheet" media="screen and (max-width: 600px)" href="smallscreen.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" /></head>
+
 </head>
 <body>
   <header>
@@ -64,9 +67,9 @@
               </button>
                <button type="button" class="btn">All Categories</button>
                <div class="dropdown-menu py-0">
-                   <a class="dropdown-item " href="#">Action</a>
-                   <a class="dropdown-item " href="#">Another action</a>
-                   <a class="dropdown-item " href="#">Something else here</a>
+                   <a class="dropdown-item" href="#">Action</a>
+                   <a class="dropdown-item" href="#">Another action</a>
+                   <a class="dropdown-item" href="#">Something else here</a>
                </div>
               </div>
               </div>
@@ -96,7 +99,7 @@
 </header>
 </section>
 <!-- Banner Image -->
-<div class="container pt-5">
+<div class="container-fluid pt-5">
   <div class="row">
       <div class="col-6 pt-5">
           <h4>WELCOME TO CHAIRY</h4>
@@ -120,11 +123,13 @@
 <section>
   <!-- <div class="container mt-5">
   </div> -->
-  <div class="container">
+  <div class="container-fluid">
     <div class="row">
     <h4>Features Products</h4>
-      <div class="col-lg-3">
-        <div class="card shadow-sm">
+    <div id="slider-1" class="owl-carousel">
+      <div>  
+        <div class="col-lg-2">
+        <div class="card shadow-sm" style="width: 20rem;">
           <img src="image/Chair/Living Room Sofa.jpeg" alt="Living Room Sofa">
            <div class="card-body">
              <p class="card-text text-black">Living Room Sofa</p>
@@ -140,8 +145,10 @@
            </div>
          </div>
         </div>
-        <div class="col-lg-3">
-          <div class="card shadow-sm">
+      </div>
+      <div>
+        <div class="col-lg-2">
+          <div class="card shadow-sm" style="width: 20rem;">
             <img src="image/Chair/Sofa blue.jpeg" alt="Blue sofa">
             <div class="card-body">
               <p class="card-text text-black">Blue Sofa</p>
@@ -158,8 +165,10 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-3">
-          <div class="card shadow-sm">
+      </div>
+      <div>
+        <div class="col-lg-2">
+          <div class="card shadow-sm" style="width: 20rem;">
             <img src="image/Chair/whit and blue sofa.jpeg" alt=" white blue sofa">
             <div class="card-body">
               <p class="card-text text-black">White Blue Sofa</p>
@@ -176,14 +185,16 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-3">
-          <div class="card shadow-sm">
-            <img src="image/Chair/Fontaine Sofa - Green.jpeg" alt="Fontaine Sofa - Green">
+      </div>
+      <div>
+        <div class="col-lg-2">
+          <div class="card shadow-sm" style="width: 20rem;">
+            <img src="image/Chair/whit and blue sofa.jpeg" alt=" white blue sofa">
             <div class="card-body">
-              <p class="card-text text-black">White Long Sofa</p>
+              <p class="card-text text-black">White Blue Sofa</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="d-flex justify-content-between align-items-center mt-3">
-                  <span class="h6 mb-0 text-gray">₹17999.00</span>  
+                  <span class="h6 mb-0 text-gray">₹8999.00</span>  
               </div>
               
                 <button type="button" class="btn btn-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-plus" viewBox="0 0 16 16">
@@ -195,8 +206,35 @@
           </div>
         </div>
       </div>
+      <div>
+        <div class="col-lg-2">
+          <div class="card shadow-sm" style="width: 20rem;">
+            <img src="image/Chair/whit and blue sofa.jpeg" alt=" white blue sofa">
+            <div class="card-body">
+              <p class="card-text text-black">White Blue Sofa</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="d-flex justify-content-between align-items-center mt-3">
+                  <span class="h6 mb-0 text-gray">₹8999.00</span>  
+              </div>
+              
+                <button type="button" class="btn btn-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-plus" viewBox="0 0 16 16">
+                  <path d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9z"/>
+                  <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0m7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0"/>
+                </svg></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
-<div class=" container text-end">
+    </div>
+    </div>
+     
+        
+       
+  
+<!-- <div class=" container-fluid text-end btn-plo">
   <a href="#">
     <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-arrow-left-circle-fill" viewBox="0 0 16 16">
       <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0m3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5z"/>
@@ -206,16 +244,16 @@
       <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
     </svg>
 </a>
-</div>
+</div> -->
 </section>
     <!-- grid container 2 -->
     <section>
-      <div class="container mt-5">
+      <div class="container-fluid mt-5">
         <div class="pro">
           <h4>Our Product</h4>
         </div>
       </div>
-      <div class="container">
+      <div class="container-fluid">
         <div class="row">
           <div class="col-6">
             <ul class="nav">
@@ -238,10 +276,10 @@
           </div>
         </div>
       </div>
-      <div class="container">
+      <div class="container-fluid">
         <div class="row">
-          <div class="col-lg-3 my-4">
-            <div class="card shadow-sm">
+          <div class="col-lg-3 my-3">
+            <div class="card shadow-sm card-chht">
               <img src="image/Chair/green chair.jpeg" alt="">
                <div class="card-body">
                  <p class="card-text text-black">Library School Chair</p>
@@ -258,8 +296,8 @@
                </div>
              </div>
            </div>
-           <div class="col-lg-3 my-4">
-             <div class="card shadow-sm">
+           <div class="col-lg-3 my-3">
+             <div class="card shadow-sm card-chht">
                <img src="image/Chair/blue chair and table.jpeg" alt="">
                <div class="card-body">
                  <p class="card-text text-black">Wooden Stool Chair</p>
@@ -276,8 +314,8 @@
                </div>
              </div>
            </div>
-           <div class="col-lg-3 my-4">
-             <div class="card shadow-sm">
+           <div class="col-lg-3 my-3">
+             <div class="card shadow-sm card-chht">
                <img src="image/Chair/light green mini chair.jpeg" alt="">
                <div class="card-body ">
                  <p class="card-text text-black">Fancy Stool Chair</p>
@@ -294,8 +332,8 @@
                </div>
              </div>
            </div>
-           <div class="col-lg-3 my-4">
-             <div class="card shadow-sm">
+           <div class="col-lg-3 my-3">
+             <div class="card shadow-sm card-chht">
                <img src="image/Chair/Twin mini chair.jpeg" alt="">
                <div class="card-body text-black">
                  <p class="card-text text-black">Library Stoool Chair</p>
@@ -313,7 +351,7 @@
              </div>
            </div>
            <div class="col-lg-3 my-3">
-             <div class="card shadow-sm">
+             <div class="card shadow-sm card-chht">
                <img src="image/Chair/Star Chair - Black.jpeg" alt="">
                <div class="card-body">
                  <p class="card-text text-black">Library Stool Chair</p>
@@ -331,7 +369,7 @@
              </div>
            </div>
            <div class="col-lg-3 my-3">
-             <div class="card shadow-sm">
+             <div class="card shadow-sm card-chht">
                <img src="image/Chair/blue chair.jpeg" alt="">
                <div class="card-body">
                  <p class="card-text text-black">Wooden Stool Chair</p>
@@ -349,7 +387,7 @@
              </div>
            </div>
            <div class="col-lg-3 my-3">
-             <div class="card shadow-sm">
+             <div class="card shadow-sm card-chht">
                <img src="image/Chair/white and green.jpeg" alt="">
                <div class="card-body">
                  <p class="card-text text-black">Fancy Stool Chair</p>
@@ -367,7 +405,7 @@
              </div>
            </div>
            <div class="col-lg-3 my-3">
-             <div class="card shadow-sm">
+             <div class="card shadow-sm card-chht">
                <img src="image/Chair/whty.jpeg" alt="">
                <div class="card-body">
                  <p class="card-text text-black">Library Stool Chair</p>
@@ -389,7 +427,7 @@
     </section>
   
     <!-- What Clint say about us -->
-    <div class="container">
+    <div class="container-fluid">
       <div class="row mt-5">
         <h1>What Client say about us</h1>
     <div class="col-md-6">
@@ -405,7 +443,7 @@
                 molestiae numquam quas, voluptates omnis nulla ea odio quia similique corrupti
                 magnam.
               </p>
-              <p class="fw-bold lead mb-2"><strong>Kristin Watson</strong></p>
+              <p class="fw-bold lead mb-2"><strong class="text-black">Kristin Watson</strong></p>
               <p class="fw-bold text-muted mb-0">Fasion Designer</p>
             </div>
           </div>
@@ -433,7 +471,7 @@
       </div>
     </div> 
   
-    <div class="container">
+    <!-- <div class="container-fluid">
       <div class="col text-end">
         <a href="#">
           <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-arrow-left-circle-fill" viewBox="0 0 16 16">
@@ -445,25 +483,25 @@
           </svg>
       </a>
       </div>
-    </div> 
+    </div>  -->
     </div>
 
     </div>
     <!-- container -->
 <section>
-  <div class="container mt-5">
-    <h4>Features Products</h4>
-  </div>
-  <div class="container">
+  <div class="container-fluid">
     <div class="row">
-      <div class="col-lg-3">
-        <div class="card shadow-sm">
+    <h4>Features Products</h4>
+    <div id="slider-2" class="owl-carousel">
+      <div>  
+        <div class="col-lg-2">
+        <div class="card shadow-sm" style="width: 20rem;">
           <img src="image/Chair/Living Room Sofa.jpeg" alt="Living Room Sofa">
            <div class="card-body">
              <p class="card-text text-black">Living Room Sofa</p>
              <div class="d-flex justify-content-between align-items-center">
                <div class="d-flex justify-content-between align-items-center mt-3">
-                 <span class="h6 text-gray">₹29999.00</span>  
+                 <span class="h6">₹29999.00</span>  
              </div>
                <button type="button" class="btn btn-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-plus" viewBox="0 0 16 16">
                  <path d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9z"/>
@@ -473,8 +511,10 @@
            </div>
          </div>
         </div>
-        <div class="col-lg-3">
-          <div class="card shadow-sm">
+      </div>
+      <div>
+        <div class="col-lg-2">
+          <div class="card shadow-sm" style="width: 20rem;">
             <img src="image/Chair/Sofa blue.jpeg" alt="Blue sofa">
             <div class="card-body">
               <p class="card-text text-black">Blue Sofa</p>
@@ -491,8 +531,10 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-3">
-          <div class="card shadow-sm">
+      </div>
+      <div>
+        <div class="col-lg-2">
+          <div class="card shadow-sm" style="width: 20rem;">
             <img src="image/Chair/whit and blue sofa.jpeg" alt=" white blue sofa">
             <div class="card-body">
               <p class="card-text text-black">White Blue Sofa</p>
@@ -509,14 +551,16 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-3">
-          <div class="card shadow-sm">
-            <img src="image/Chair/Fontaine Sofa - Green.jpeg" alt="Fontaine Sofa - Green">
+      </div>
+      <div>
+        <div class="col-lg-2">
+          <div class="card shadow-sm" style="width: 20rem;">
+            <img src="image/Chair/whit and blue sofa.jpeg" alt=" white blue sofa">
             <div class="card-body">
-              <p class="card-text text-black">White Long Sofa</p>
+              <p class="card-text text-black">White Blue Sofa</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="d-flex justify-content-between align-items-center mt-3">
-                  <span class="h6 mb-0 text-gray">₹17999.00</span>  
+                  <span class="h6 mb-0 text-gray">₹8999.00</span>  
               </div>
               
                 <button type="button" class="btn btn-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-plus" viewBox="0 0 16 16">
@@ -528,8 +572,32 @@
           </div>
         </div>
       </div>
+      <div>
+        <div class="col-lg-2">
+          <div class="card shadow-sm" style="width: 20rem;">
+            <img src="image/Chair/whit and blue sofa.jpeg" alt=" white blue sofa">
+            <div class="card-body">
+              <p class="card-text text-black">White Blue Sofa</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="d-flex justify-content-between align-items-center mt-3">
+                  <span class="h6 mb-0 text-gray">₹8999.00</span>  
+              </div>
+              
+                <button type="button" class="btn btn-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-plus" viewBox="0 0 16 16">
+                  <path d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9z"/>
+                  <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0m7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0"/>
+                </svg></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
-<div class=" container text-end">
+    </div>
+    </div>
+  
+<!-- <div class=" container-fluid text-end">
   <a href="#">
     <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-arrow-left-circle-fill" viewBox="0 0 16 16">
       <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0m3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5z"/>
@@ -539,12 +607,12 @@
       <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
     </svg>
 </a>
-</div>
+</div> -->
 
 </section>
      
           <!-- footer -->
-          <div class="container">
+          <div class="container-fluid">
             <footer class="py-5">
               <div class="row">
                 <div class="col-6 col-md-2 mb-3">
@@ -614,10 +682,13 @@
 <!-- js CDN plugins -->
 <!-- https://code.jquery.com/ -->
 <!-- https://jqueryvalidation.org/ -->
-<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/jquery.validate.js"></script>
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/jquery.validate.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
       <script src="script.js"></script>
 </body>
 </html>
