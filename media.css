@@ -1,10 +1,10 @@
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .discount-value {
       top: 20px;
       right: 40px;
     }
     .card-bbt{
-      margin-left: 15px;
+      margin-right: -35px;
       
     }
     .card-chht{
@@ -14,8 +14,37 @@
       margin-left:-40px;
     }
     .owl-nav button.owl-prev span{
-     margin-left: 155px;
+     margin-left: 140px;
     }
-   
-   
+   ul li a{
+    margin-left: -20px;
+   }
+   /* h5{
+    margin-left: -20px;
+   } */
+   .cato{
+    margin-left: -33px;
+    font-size: 15px;
+    font-weight: 750;
+    font-family: 'poppins', sans-serif;
+   }
+   .suppo{
+    margin-left: -28px;
+    font-size: 15px;
+    font-weight: 750;
+    font-family: 'poppins', sans-serif;
+   }
+   .chairy{
+    font-size: 15px;
+    font-weight: 750;
+    font-family: 'poppins', sans-serif;
+   }
+  }
+ 
+  @media only screen and (min-width: 992px) {
+    .card-bbt{
+      margin-left: -25px;
+      
+    }
+    
   }

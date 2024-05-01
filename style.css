@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: 'poppins',sans-serif;
 }
 
 .nav-link{
@@ -22,12 +23,6 @@ body.toggle-btn {
 .pox {
   text-align: start;
 }
-/* header {
-  position: fixed;
-  width: 100%;
-  background-color: #f8f8f8;
-  z-index: 1;
-} */
 .discount-value {
   position: absolute;
   text-align: center;
@@ -46,25 +41,13 @@ body.toggle-btn {
   color: #f6dfdf;
 }
 
-.owl-nav button.owl-prev span{
-  display: inline-block;
-  background-color: rgb(68, 68, 244);
-  color: #fff;
-  border-radius: 50%;
-  font-size: 32px;
-  height: 40px;
-  width: 40px;
-}
-
+.owl-nav button.owl-prev span,
 .owl-nav button.owl-next span{
   display: inline-block;
-  background-color: rgb(68, 68, 244);
-  color: #fff;
-  border-radius: 50%;
-  margin-top: 20px;
+  color: #080606;
+  font-size: 32px;
   height: 40px;
   width: 40px;
-  font-size: 32px;
 }
 
 

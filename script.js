@@ -7,7 +7,31 @@ $(".form-check-input").click(function () {
 
 $('#slider-1').owlCarousel({
   loop:true,
-  margin:10,
+  margin:80,
+  responsiveClass:true,
+  responsive:{
+      0:{
+          items:1,
+          nav:true,
+        
+      },
+    //   600:{
+    //       items:4,
+    //       nav:true,
+    //   },
+      1000:{
+          items:4,
+          nav:true,
+      },
+    //   1000:{
+    //     item:4,
+    //     nav:true,
+    //   },
+  }
+})
+$('#slider-2').owlCarousel({
+  loop:true,
+  margin:80,
   responsiveClass:true,
   responsive:{
       0:{
@@ -16,30 +40,6 @@ $('#slider-1').owlCarousel({
         
       },
       600:{
-          items:4,
-          nav:true,
-      },
-      1000:{
-          items:4,
-          nav:true,
-      },
-      // 1400:{
-      //   item:4,
-      //   nav:true,
-      // }
-  }
-})
-$('#slider-2').owlCarousel({
-  loop:true,
-  margin:10,
-  responsiveClass:true,
-  responsive:{
-      0:{
-          items:1,
-          nav:true,
-        
-      },
-      768:{
           items:3,
           nav:true,
       },
