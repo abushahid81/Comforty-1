@@ -39,12 +39,14 @@
     font-weight: 750;
     font-family: 'poppins', sans-serif;
    }
+   .charty-p{
+    font-size: 12px;
+   }
   }
  
   @media only screen and (min-width: 992px) {
     .card-bbt{
       margin-left: -25px;
-      
     }
     
   }
