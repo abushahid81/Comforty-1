@@ -49,7 +49,15 @@ body.toggle-btn {
   height: 40px;
   width: 40px;
 }
-
+/* .owl-stage {
+  margin-left: 20px;
+} */
+div#slider-1 {
+  margin-right: 25px;
+}
+div#slider-2 {
+  margin-left: 1px;
+}
 
 
 
