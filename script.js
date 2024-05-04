@@ -7,7 +7,7 @@ $(".form-check-input").click(function () {
 
 $('#slider-1').owlCarousel({
   loop:true,
-  margin:80,
+  margin:10,
   responsiveClass:true,
   responsive:{
       0:{
@@ -15,10 +15,10 @@ $('#slider-1').owlCarousel({
           nav:true,
         
       },
-    //   600:{
-    //       items:4,
-    //       nav:true,
-    //   },
+      600:{
+          items:4,
+          nav:true,
+      },
       1000:{
           items:4,
           nav:true,
@@ -31,7 +31,7 @@ $('#slider-1').owlCarousel({
 })
 $('#slider-2').owlCarousel({
   loop:true,
-  margin:80,
+  margin:10,
   responsiveClass:true,
   responsive:{
       0:{

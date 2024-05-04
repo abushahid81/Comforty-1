@@ -1,15 +1,14 @@
-@media (max-width: 600px) {
+@media only screen and (max-width: 600px) {
     .discount-value {
       top: 20px;
       right: 40px;
     }
-    .card-bbt{
-      margin-right: -35px;
-      
+    .card.card-bbt{
+      margin-left: 10px;
     }
-    .card-chht{
+    /* .card-chht{
       margin-left: -2px;
-    }
+    } */
     .btn-plo{
       margin-left:-40px;
     }
@@ -44,9 +43,7 @@
    }
   }
  
-  @media only screen and (min-width: 992px) {
-    .card-bbt{
-      margin-left: -25px;
-    }
+  @media only screen and (max-width: 300px) {
+   
     
   }
